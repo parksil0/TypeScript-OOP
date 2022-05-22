@@ -11,10 +11,7 @@
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "plugins": [
-    "prettier",
-    "@typescript-eslint"
-  ],
+  "plugins": ["prettier", "@typescript-eslint"],
   "parserOptions": {
     "parser": "@typescript-eslint/parser",
     "ecmaVersion": 12,
@@ -27,13 +24,11 @@
       {
         "singleQuote": true,
         "semi": true,
-        "useTabs": false,
+        "ustTabs": false,
         "tabWidth": 2,
         "trailingComma": "all",
-        "printWidth": 120,
-        "bracketSpacing": true,
-        "arrowParens": "avoid",
-        "endOfLine": "auto"
+        "printWidth": 80,
+        "arrowParens": "always"
       }
     ]
   }
